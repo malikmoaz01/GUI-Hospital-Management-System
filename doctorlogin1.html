@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hospital System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-warning bg-warning">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Hospital</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="rules.html">Rules</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Users
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="PatientLogin.html">Patient</a></li>
+                            <li><a class="dropdown-item" href="Doctorlogin.html">Doctors</a></li>
+                            <li><a class="dropdown-item" href="clinicalStaffLogin.html">Clinical</a></li>
+                            <li><a class="dropdown-item" href="laboratory.html">Laboratory</a></li>
+                            <li><a class="dropdown-item" href="financial.html">Financial</a></li>
+                            <li><a class="dropdown-item" href="medicine.html">Medicine</a></li>
+                              <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <div class="mx-2">
+                    <a href="signup.html" class="btn btn-outline-danger " tabindex="-1" role="button"
+                        aria-disabled="true">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <table class="table mx-3 my-4 ">
+        <thead>
+          <tr>
+            <th scope="col">Month</th>
+            <th scope="col">Salary</th>
+            <th scope="col">Absents</th>
+            <th scope="col">Consulted Patients</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Nov</th>
+            <td>90720</td>
+            <td>4</td>
+            <td>Malik</td>
+          </tr>
+          <tr>
+            <th scope="row">Dec</th>
+            <td>97000</td>
+            <td>1</td>
+            <td>Moaz</td>
+          </tr>
+          <tr>
+            <th scope="row">Jan</th>
+            <td>110000</td>
+            <td>0</td>
+            <td>Hamza</td>
+          </tr>
+        </tbody>
+      </table>
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<div class="page-content container my-3">
+    <div class="page-header text-blue-d2">
+        <h1 class="page-title text-secondary-d1">
+            Invoice
+            <small class="page-info">
+                <i class="fa fa-angle-double-right text-80"></i>
+                ID: #111-222
+            </small>
+        </h1>
+
+        <div class="page-tools">
+            <div class="action-buttons">
+                <a class="btn bg-warning btn-warning mx-1px text-95" href="#" data-title="Print">
+                    <i class="mr-1 fa fa-print text-primary-m1 text-120 w-2"></i>
+                    Print
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container px-0">
+        <div class="row mt-4">
+            <div class="col-12 col-lg-12">
+                <div class="row">
+                    <div class="col-12">
+                        
+                    </div>
+                </div>
+                <!-- .row -->
+
+                <hr class="row brc-default-l1 mx-n1 mb-4" />
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div>
+                            <span class="text-sm text-grey-m2 align-middle">To:</span>
+                            <span class="text-600 text-110 text-blue align-middle">Malik Moaz</span>
+                        </div>
+                        <div class="text-grey-m2">
+                            
+                            <div class="my-1">
+                                Lahore , Pakistan
+                            </div>
+                            <div class="my-1"><i class="fa fa-phone fa-flip-horizontal text-secondary"></i> <b class="text-600">111-111-111</b></div>
+                        </div>
+                    </div>
+                    <!-- /.col -->
+
+                    <div class="text-95 col-sm-6 align-self-start d-sm-flex justify-content-end">
+                        <hr class="d-sm-none" />
+                        <div class="text-grey-m2">
+                            <div class="mt-1 mb-2 text-secondary-m1 text-600 text-125">
+                                Invoice
+                            </div>
+
+                            <div class="my-2"><i class="fa fa-circle text-blue-m2 text-xs mr-1"></i> <span class="text-600 text-90">ID:</span> #111-222</div>
+
+                            <div class="my-2"><i class="fa fa-circle text-blue-m2 text-xs mr-1"></i> <span class="text-600 text-90">Issue Date:</span> Nov 28, 2022</div>
+
+                            
+                        </div>
+                    </div>
+                    <!-- /.col -->
+                </div>
+
+                <div class="mt-4">
+                    <div class="row text-600 text-white bgc-default-tp1 py-25">
+                        <div class="d-none d-sm-block col-1">#</div>
+                        <div class="col-9 col-sm-5">Description</div>
+                        <div class="d-none d-sm-block col-4 col-sm-2">Qty</div>
+                        <div class="d-none d-sm-block col-sm-2">Unit Price</div>
+                        <div class="col-2">Amount</div>
+                    </div>
+
+                    <div class="text-95 text-secondary-d3">
+                        <div class="row mb-2 mb-sm-0 py-25">
+                            <div class="d-none d-sm-block col-1">1</div>
+                            <div class="col-9 col-sm-5">Bonus</div>
+                            <div class="d-none d-sm-block col-2">2</div>
+                            <div class="d-none d-sm-block col-2 text-95">7400</div>
+                       
+                        </div>
+
+                        <div class="row mb-2 mb-sm-0 py-25 bgc-default-l4">
+                            <div class="d-none d-sm-block col-1">2</div>
+                            <div class="col-9 col-sm-5">Absents</div>
+                            <div class="d-none d-sm-block col-2">4</div>
+                            <div class="d-none d-sm-block col-2 text-95">-4600</div>
+                          
+                        </div>
+
+                        <div class="row mb-2 mb-sm-0 py-25">
+                            <div class="d-none d-sm-block col-1">3</div>
+                            <div class="col-9 col-sm-5">Basic Salary</div>
+                            <div class="d-none d-sm-block col-2">--</div>
+                            <div class="d-none d-sm-block col-2 text-95">100000</div>
+                            
+                        </div>
+
+                        <!-- <div class="row mb-2 mb-sm-0 py-25 bgc-default-l4">
+                            <div class="d-none d-sm-block col-1">4</div>
+                            <div class="col-9 col-sm-5">Consulting</div>
+                            <div class="d-none d-sm-block col-2">1 Year</div>
+                            <div class="d-none d-sm-block col-2 text-95">$500</div>
+                            <div class="col-2 text-secondary-d2">$500</div>
+                        </div> -->
+                    </div>
+
+                    <div class="row border-b-2 brc-default-l2"></div>
+
+                    <div class="row mt-3">
+                        <div class="col-12 col-sm-5 text-grey-d2 text-95 mt-2 mt-lg-0">
+                           
+                        </div>
+
+                        <div class="col-12 col-sm-5 text-grey text-90 order-first order-sm-last">
+                            <div class="row my-2">
+                                <div class="col-7 text-right">
+                                    SubTotal
+                                </div>
+                                <div class="col-5">
+                                    <span class="text-120 text-secondary-d1">102800</span>
+                                </div>
+                            </div>
+
+                            <div class="row my-2">
+                                <div class="col-7 text-right">
+                                    Tax (10%)
+                                </div>
+                                <div class="col-5">
+                                    <span class="text-110 text-secondary-d1">10280</span>
+                                </div>
+                            </div>
+
+                            <div class="row my-2 align-items-center bgc-primary-l3 p-2">
+                                <div class="col-7 text-right">
+                                Total Amount
+                                </div>
+                                <div class="col-5">
+                                    <span class="text-150 text-success-d3 opacity-2">90720</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hospital System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-warning bg-warning">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Hospital</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="rules.html">Rules</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Users
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="PatientLogin.html">Patient</a></li>
+                            <li><a class="dropdown-item" href="Doctorlogin.html">Doctors</a></li>
+                            <li><a class="dropdown-item" href="clinicalStaffLogin.html">Clinical</a></li>
+                            <li><a class="dropdown-item" href="laboratory.html">Laboratory</a></li>
+                            <li><a class="dropdown-item" href="financial.html">Financial</a></li>
+                            <li><a class="dropdown-item" href="medicine.html">Medicine</a></li>
+                              <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <div class="mx-2">
+                    <a href="signup.html" class="btn btn-outline-danger " tabindex="-1" role="button"
+                        aria-disabled="true">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <table class="table mx-3 my-4 ">
+        <thead>
+          <tr>
+            <th scope="col">Month</th>
+            <th scope="col">Salary</th>
+            <th scope="col">Absents</th>
+            <th scope="col">Shift</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Nov</th>
+            <td>26000</td>
+            <td>2</td>
+            <td>Morning</td>
+          </tr>
+          <tr>
+            <th scope="row">Dec</th>
+            <td>30000</td>
+            <td>0</td>
+            <td>Evening</td>
+          </tr>
+          <tr>
+            <th scope="row">Jan</th>
+            <td>15000</td>
+            <td>15</td>
+            <td>AfterNoon </td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center lh-1 mb-2">
+                    <h6 class="fw-bold">Payslip</h6> <span class="fw-normal">Payment slip for the month of Nov 2022</span>
+                </div>
+                <div class="d-flex justify-content-end"> <span>Working Branch:HMS</span> </div>
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div> <span class="fw-bolder">EMP Code</span> <small class="ms-3">39124</small> </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div> <span class="fw-bolder">EMP Name</span> <small class="ms-3">Malik Moaz</small> </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div> <span class="fw-bolder">PF No.</span> <small class="ms-3">101523065714</small> </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div> <span class="fw-bolder">NOD</span> <small class="ms-3">28</small> </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div> <span class="fw-bolder">ESI No.</span> <small class="ms-3"></small> </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div> <span class="fw-bolder">Mode of Pay</span> <small class="ms-3">SBI</small> </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div> <span class="fw-bolder">Designation</span> <small class="ms-3">Clinical Staff (MK)</small> </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div> <span class="fw-bolder">Ac No.</span> <small class="ms-3">35101**********</small> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <table class="mt-4 table table-bordered">
+                        <thead class="bg-dark text-white">
+                            <tr>
+                                <th scope="col">Earnings</th>
+                                <th scope="col">Amount</th>
+                                <th scope="col">Deductions</th>
+                                <th scope="col">Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Basic</th>
+                                <td>16250.00</td>
+                                <td>PF</td>
+                                <td>1800.00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">DA</th>
+                                <td>550.00</td>
+                                <td>ESI</td>
+                                <td>142.00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">HRA</th>
+                                <td>1650.00 </td>
+                                <td>TDS</td>
+                                <td>0.00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">WA</th>
+                                <td>120.00 </td>
+                                <td>LOP</td>
+                                <td>0.00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">CA</th>
+                                <td>0.00 </td>
+                                <td>PT</td>
+                                <td>0.00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">CCA</th>
+                                <td>0.00 </td>
+                                <td>SPL. Deduction</td>
+                                <td>500.00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">MA</th>
+                                <td>3000.00</td>
+                                <td>EWF</td>
+                                <td>0.00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Sales Incentive</th>
+                                <td>0.00</td>
+                                <td>CD</td>
+                                <td>0.00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Leave Encashment</th>
+                                <td>0.00</td>
+                                <td colspan="2"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Holiday Wages</th>
+                                <td>500.00</td>
+                                <td colspan="2"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Special Allowance</th>
+                                <td>100.00</td>
+                                <td colspan="2"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Bonus</th>
+                                <td>1400.00</td>
+                                <td colspan="2"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Individual Incentive</th>
+                                <td>2400.00</td>
+                                <td colspan="2"></td>
+                            </tr>
+                            <tr class="border-top">
+                                <th scope="row">Total Earning</th>
+                                <td>25970.00</td>
+                                <td>Total Deductions</td>
+                                <td>2442.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="row">
+                    <div class="col-md-4"> <br> <span class="fw-bold">Net Pay : 26000.00</span> </div>
+                    <div class="border col-md-8">
+                        <div class="d-flex flex-column"> <span>In Words</span> <span>Twenty Six Thousand only</span> </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <div class="d-flex flex-column mt-2"> <span class="fw-bolder"></span> <span class="mt-4">Authorised Signatory</span> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     
+     
+    <button type="button" class="btn btn-warning btn-lg my-2 mx-5 justify-content-center">Download Salary Slip</button>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>
